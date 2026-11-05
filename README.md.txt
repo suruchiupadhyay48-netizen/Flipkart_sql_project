@@ -1,0 +1,51 @@
+# 🛒 Flipkart Sales Analysis | End-to-End SQL Project
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-Orange?style=for-the-badge)
+
+## 📌 Overview
+Analyzed Flipkart-style e-commerce sales data to understand sales performance, customer behavior, product trends, and order insights. Built a complete relational database from scratch.
+
+## 🎯 Business Objectives
+- Analyze total orders & sales revenue
+- Identify top-selling products & categories
+- Understand customer purchasing patterns
+- Find sales trends & revenue insights
+
+## 🛠️ Tech Stack & Concepts
+- **Tool:** MySQL Workbench
+- **Concepts:** Primary Key, Foreign Key, JOINS, GROUP BY, ORDER BY, Aggregate Functions (SUM, COUNT, AVG), Window Functions
+
+## 🗂️ Database Schema
+- `customers` - Customer details (customer_id, name, state, city)
+- `products` - Product information (product_id, name, category, price)
+- `orders` - Order details (order_id, customer_id, product_id, order_date, amount)
+
+> Note: Add your ER Diagram screenshot 
+
+## 📊 Key Analysis Done
+
+Q1. What is the total number of customers, products, and orders?
+Q2. What is the total sales amount?
+Q3. Top 5 best-selling products?
+Q4. State with maximum customers?
+Q5. Monthly sales trend?
+
+## 🚀 How to Run This Project
+1.  Clone this repository: `git clone https://github.com/suruchiupadhyay/Flipkart-SQL-Project.git`
+2.  Open MySQL Workbench
+3.  Execute `schema.sql` to create database
+4.  Execute `analysis_queries.sql` to see insights
+
+## 👩‍💻 Author
+**Suruchi Upadhyay** | Aspiring Data Analyst
+[LinkedIn](www.linkedin.com/in/suruchi-upadhyay-data-analyst) | [GitHub](https://github.com/suruchiupadhyay48-netizen/reason4.git)
+
+## 💡 Key Insights
+
+- - Analyzed a dataset of 5000 customers and 1063 product with 8879 total transactions, including strong business activity.
+
+- - Total sales amount is ₹26.59 Cr (₹265,905,112) from 8879    orders.
+- - All payment methods are almost equally preferred, with Wallet leading slightly (₹4.78 Cr of total sales).
+
+- - Highest monthly sales in March 2024 (24-03) with ₹93.90L, Lowest in March 2026 (26-03) with ₹62.92L, showing sales fluctuation over time.
